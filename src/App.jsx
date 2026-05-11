@@ -1,11 +1,8 @@
-import React from 'react';
-import Name from './Name';
-import Cal from './Cal';
+import "./App.css";
+import InputMirror from "./InputMirror";
 
-function App() {
-  const allScore = [80, 90, 70];
-
-  return <Cal score={allScore} />;
-}
+const App = () => {
+  return <InputMirror />;
+};
 
 export default App;
